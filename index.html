@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>uler</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CACING PAPUA</h1>
+    <div id="gameContainer">
+      <div class="container">
+        <canvas id="gameBoard" width="350" height="350"></canvas>
+        <button id="startBtn" onclick="gameStart()">Start</button>
+      </div>
+      <div id="controlContainer">
+        <button id="btnLeft"><</button>
+        <div id="yAxisBtn">
+          <button id="btnUp">^</button>
+          <button id="btnDown">v</button>
+        </div>
+        <button id="btnRight">></button>
+      </div>
+      <div id="scoreText">0</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
